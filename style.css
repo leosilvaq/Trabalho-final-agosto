@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(99, 176, 228);
+}
+
+nav {
+    width: 18vw;
+    height: 98vh;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 6px 0 0 30px;
+    text-align: center;
+    padding-top: 260px;
+    box-shadow: 0px 15px 15px #0c0c0cc2;
+    border-radius: 6px;
+    border: rgba(0, 0, 0, 0.438) solid 0.03em;
+    float: left;
+    line-height: 2;
+}
+
+.perfil-foto img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid rgba(117, 117, 117, 0.445) 0.05em;
+    object-fit: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.596);
+}
+
+nav ul li {
+    padding: 15px;
+    list-style: none;
+}
+
+.redes img:hover {
+    transform: scale(1.08);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+nav ul a {
+    font-weight: bold;
+}
+
+nav ul li a:hover { 
+    font-size: 22px;
+    font-weight: 900;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+main {
+    width: 70vw;
+    height: 95vh;
+    margin: 20px 0 0 20px;
+    padding: 260px 0 0 20px;
+    float: left;
+}
+
+main p {
+    line-height: 10;
+}
+
+h1 {
+    line-height: 2;
+
+}
+
+main h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.redes {
+    word-spacing: 5px;
+}
+
+a img {
+    background-color: rgba(0, 255, 255, 0.192);
+    border-radius: 50%;
+    box-shadow: 0 2px 2px black;
+}
+
+.redes a img {
+    width: 50px;
+    padding: 5px;
+}
+
+.list {
+    list-style: upper-alpha;
+    line-height: 4;
+    padding: 40px 0 0 30px;
+    font-size: large;
+}
+
+.list2 {
+    line-height: 2;
+    font-size: large;
+}
+
+.email {
+    color: rgb(255, 255, 255);
+}
+.email:hover {
+    color: rgb(165, 42, 42);
+    transition: 0.2s;
+}
